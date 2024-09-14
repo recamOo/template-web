@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: 0;
+    background-color: #0d0e12;
+}
+
+.navbar{
+    border: 1px solid #18749b;
+    position: sticky;
+    top: 0;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #0d0e12;
+}
+
+.titulo{
+    font-family: "Recursive", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:"slnt" 0,"CASL" 0,"CRSV" 0.5,"MONO" 0;
+    flex: 20%;
+    text-align: center;
+    align-items: center;
+    color: #1f7daa;
+}
+
+.menu{
+    flex: 40%;
+    align-items: center;
+    text-align: end;
+    margin-top: 10px;
+}
+
+a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-decoration: none;
+    color: #1f7daa;
+    padding-right: 7px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.header{
+   display: flex;
+   flex-flow: row wrap;
+   height: 400px;
+   align-items: center;
+}
+
+.imagem{
+    margin-right: 1;
+    flex: 45%;
+    border-radius: 20px;
+}
+
+.headline{
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    flex:40%;
+    color: #18749b;
+    padding-right: 30px;
+}
+
+section{
+    display: inline-block;
+    margin-top: 80px;
+    border: 1px solid #18749b;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    width: 90%;
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    color: #18749b;
+}
+
+.conteiner{
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+   
+}
+
+.card{
+    font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+    display: inline-block;
+    width: 20%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #18749b;
+    color: #18749b;
+}
+
+.card:hover{
+    color: #0d0e12;
+    background-color: #18749b;
+}
+
+footer{
+    border-top: 2px solid #18749b;
+    background-image: linear-gradient(to top,#0d121e, #0c1d48);
+    margin-top: 100px;
+    height: 300px;
+    text-align: center;
+}
+
+.icons{
+    height: 40px;
+    margin-right: 10px;
+}
+
+footer h2, a{
+    color: #18749b;
+    margin-top: 50px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
